@@ -1,0 +1,1917 @@
+{
+  "intents": [
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "I need to update to address on my order"
+        },
+        {
+          "text": "two days ago"
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "How do I change the phone that I ordered?"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I would like to modify an order I made."
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "update address on order"
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "OrderNumber",
+      "examples": [
+        {
+          "text": "87496"
+        },
+        {
+          "text": "23890"
+        },
+        {
+          "text": "12345"
+        },
+        {
+          "text": "34567"
+        },
+        {
+          "text": "23009"
+        },
+        {
+          "text": "23456"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "actually, can I speak to an agent?"
+        },
+        {
+          "text": "Agent help"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "freeshipping",
+      "examples": [
+        {
+          "text": "Does my order qualify for free shipping?"
+        },
+        {
+          "text": "How can I get free shipping?"
+        },
+        {
+          "text": "I have a promo code for free shipping"
+        },
+        {
+          "text": "How do I get free shipping?"
+        },
+        {
+          "text": "I must get free shipping"
+        },
+        {
+          "text": "I forgot to add the promo code for free shipping"
+        },
+        {
+          "text": "How do I qualify for free shipping?"
+        },
+        {
+          "text": "What is a promo code for free shipping?"
+        },
+        {
+          "text": "I forgot to apply a promo code for free shipping"
+        },
+        {
+          "text": "I have a shipping promo code"
+        },
+        {
+          "text": "I need to add my free shipping promo code"
+        },
+        {
+          "text": "I just placed an order for some bedding and I forgot to add the promo code for free shipping. Can you adjust that for me?"
+        },
+        {
+          "text": "Can I get free shipping?"
+        },
+        {
+          "text": "I want free shipping"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_consulta_saldo",
+      "examples": [
+        {
+          "text": "Me gustaría comprobar cuánto es mi factura, por favor, gracias."
+        },
+        {
+          "text": "Quiero preguntar sobre el saldo de mi cuenta"
+        },
+        {
+          "text": "¿Cuánto es mi próximo pago?"
+        },
+        {
+          "text": "Hola. Quiero saber cuánto tengo que pagar este mes"
+        },
+        {
+          "text": "Dame la cantidad adeudada"
+        },
+        {
+          "text": "El monto actual de la factura"
+        },
+        {
+          "text": "¿Puede decirme mi saldo actual, por favor?"
+        },
+        {
+          "text": "Yes, I want to check my balance"
+        },
+        {
+          "text": "What's my balance?"
+        },
+        {
+          "text": "What was my account balance as of june 1st, 2016?"
+        },
+        {
+          "text": "What is the remaining balance?"
+        },
+        {
+          "text": "What is my full balance?"
+        },
+        {
+          "text": "What is my current outstanding?"
+        },
+        {
+          "text": "Can you help me check my balance?"
+        },
+        {
+          "text": "¿Puede decirme cuánto es mi factura de este mes? creo que va a ser caro"
+        },
+        {
+          "text": "¿Puedo ver el saldo de mi cuenta?"
+        },
+        {
+          "text": "¿Puedo comprobar mi balance de datos?"
+        },
+        {
+          "text": "¿Puede ayudarme a comprobar mi saldo?"
+        },
+        {
+          "text": "Mostrar el balance"
+        },
+        {
+          "text": "Me gustaría saber cuánto debo."
+        }
+      ],
+      "description": "Pregunte por el saldo de una cuenta."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "neworder",
+      "examples": [
+        {
+          "text": "I need help placing an order"
+        },
+        {
+          "text": "help me buy things"
+        },
+        {
+          "text": "new order"
+        },
+        {
+          "text": "I want to place a new order"
+        },
+        {
+          "text": "Place a new order"
+        },
+        {
+          "text": "place order"
+        },
+        {
+          "text": "help me with a new purchase"
+        },
+        {
+          "text": "buy more things"
+        },
+        {
+          "text": "I need help with my order"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "returnpolicy",
+      "examples": [
+        {
+          "text": "Can I return this order?"
+        },
+        {
+          "text": "What if I need to return"
+        },
+        {
+          "text": "How do I return"
+        },
+        {
+          "text": "do a return"
+        },
+        {
+          "text": "return items please"
+        },
+        {
+          "text": "I need help with a return"
+        },
+        {
+          "text": "what is the return policy on the shams in case I change my mind?"
+        },
+        {
+          "text": "What is your return policy?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I want a status report on an order I made last week."
+        },
+        {
+          "text": "I purchased an item the other day and still haven't received an update about it, have you shipped it yet?"
+        },
+        {
+          "text": "How do I track my shipment?"
+        },
+        {
+          "text": "Has the order been dispatched yet?"
+        },
+        {
+          "text": "Has my new phone shipped yet?"
+        },
+        {
+          "text": "Expected to ship"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "How soon can we expect the new shipment of iphone 7 that was pre ordered last week?"
+        },
+        {
+          "text": "Yes I want to track my order"
+        },
+        {
+          "text": "Yes it was attempted for delivery but it says the parcel was refused though we were in the flat"
+        },
+        {
+          "text": "Where is my order?"
+        },
+        {
+          "text": "When is my new phone supposed to arrive?"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "Tracking number"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Order progress"
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Ending this session"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "I love them! I actually want to order another set"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "pillow",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "euro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "standard",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yeah",
+          "synonyms": [
+            "y",
+            "yup",
+            "ya",
+            "yas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "size",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "queen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "king",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "full",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bedding",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sheets",
+          "synonyms": [
+            "sheet set",
+            "pearl sheets"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nope",
+          "synonyms": [
+            "nah",
+            "na",
+            "hard no",
+            "negative"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://042bc71c.us-south.apigw.appdomain.cloud/wa-lab-webhook/webhook",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "shams",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like Euro Shams or Standard Shams?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "shams",
+            "source": "https://live.staticflickr.com/8795/17974924838_c42939f35d_b.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1576714618350",
+      "conditions": "true",
+      "dialog_node": "node_6_1576714758677"
+    },
+    {
+      "type": "standard",
+      "title": "Order placed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Terrific, your order has been placed. You will receive an email confirmation in your in-box momentarily and you can see the order in your order history now. Tracking information will be sent to you with within 24 hrs. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you with today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576715030466",
+      "conditions": "@yes || #General_Positive_Feedback",
+      "dialog_node": "node_6_1576715065370"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else do you need help with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576713423695",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@yes || #General_Negative_Feedback",
+      "dialog_node": "node_1_1576714130037",
+      "previous_sibling": "node_8_1576714126316"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576713423695",
+      "conditions": "@no || #General_Positive_Feedback || #General_Ending",
+      "dialog_node": "node_8_1576714126316"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "When did you place the order?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1576879371093",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1576879371099",
+      "previous_sibling": "handler_8_1576879371099"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1576879371093",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1576879371099"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where would you like them shipped?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576714515760",
+      "conditions": "@no",
+      "dialog_node": "node_3_1576714621241",
+      "previous_sibling": "node_6_1576714618350"
+    },
+    {
+      "type": "standard",
+      "title": "New Order 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! They will be shipped to your address on file."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Is there anything else you would like today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576714515760",
+      "conditions": "@yes || #General_Positive_Feedback || @sys-location",
+      "dialog_node": "node_6_1576714618350"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576622989357",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@yes || #General_Negative_Feedback",
+      "dialog_node": "node_5_1578430058269",
+      "previous_sibling": "node_1_1578430050086"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1576622989357",
+      "variable": "$location",
+      "dialog_node": "slot_3_1576879423238",
+      "previous_sibling": "slot_9_1576879371093"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1576622989357",
+      "variable": "$date",
+      "dialog_node": "slot_9_1576879371093",
+      "previous_sibling": "node_5_1578430058269"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576622989357",
+      "conditions": "@no || #General_Ending || #General_Positive_Feedback",
+      "dialog_node": "node_1_1578430050086"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else do you need?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576712493793",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@yes || #General_Positive_Feedback",
+      "dialog_node": "node_3_1576879051072",
+      "previous_sibling": "node_9_1576714954226"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great. I see that you had a promo code for free shipping when you placed your last order. As a valued customer, I’m going to go ahead a waive the shipping costs for you today."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1576712493793",
+      "conditions": "@no || #General_Ending",
+      "dialog_node": "node_9_1576714954226"
+    },
+    {
+      "type": "standard",
+      "title": "Order#",
+      "parent": "node_3_1576712090001",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "order_number": 34567
+          },
+          "result_variable": "webhook_result_34567"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1578418391205"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else do you need help with today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1576715065370",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@yes || #General_Negative_Feedback",
+      "dialog_node": "node_10_1576715115965",
+      "previous_sibling": "node_2_1578432213507"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1576715065370",
+      "conditions": "@no || #General_Positive_Feedback",
+      "dialog_node": "node_2_1578432213507"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the address you would like this order shipped to?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1576879423238",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1576879423244",
+      "previous_sibling": "handler_10_1576879423244"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1576879423238",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_10_1576879423244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! They will be shipped to $location"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1576714621241",
+      "context": {
+        "location": ""
+      },
+      "conditions": "@sys-location",
+      "dialog_node": "node_7_1576714644645"
+    },
+    {
+      "type": "standard",
+      "title": "remove shipping cost",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am refunding the shipping cost. Is there anything else I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577049850254",
+      "context": {
+        "PromoCode": "<?input.text.extract('[\\d]+',0)?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1576713423695",
+      "previous_sibling": "response_9_1578416672132"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Error: This webhook took too long to load."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1577049850254",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1578416672132",
+      "previous_sibling": "response_9_1578416670798"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi Bill! I see your order for the Queen Grey/White Striped Farmhouse Duvet Cover."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://live.staticflickr.com/8820/18136322626_c705ec384e_b.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "What is your promo code for free shipping?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577049850254",
+      "context": {
+        "OrderNumber": "<?input.text.extract('[\\d]+',0)?>"
+      },
+      "conditions": "$webhook_result_23009",
+      "dialog_node": "response_9_1578416670798"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! I have those shams ordered for you. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1576714758677",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1576714881408"
+      },
+      "conditions": "@pillow",
+      "dialog_node": "node_9_1576714839979"
+    },
+    {
+      "type": "standard",
+      "title": "Place order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "May I place this order for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1576714954226",
+      "conditions": "true",
+      "dialog_node": "node_4_1576715030466"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anything else you need today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1576714839979",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1576714881408"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Error: Took too long to call to webhook."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1578418391205",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1578418440615",
+      "previous_sibling": "response_8_1578418440407"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome back $webhook_result_34567.name ! I see you ordered a set of sheets from us last month, how are you enjoying them?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1578418391205",
+      "conditions": "$webhook_result_34567.name",
+      "dialog_node": "response_8_1578418440407",
+      "previous_sibling": "node_7_1576714515760"
+    },
+    {
+      "type": "standard",
+      "title": "New Order 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I’d be happy to help you with that. I am adding one Pearl Organic Sheet Set, King/Cal. King, Blue Mist Item #: 5403659 to your cart."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Blue Sheets",
+            "source": "https://live.staticflickr.com/8775/18136323326_6075b3bcfa_b.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like them shipped to your home address on file?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1578418391205",
+      "conditions": "@yes || #General_Positive_Feedback",
+      "dialog_node": "node_7_1576714515760"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1576712101203",
+      "conditions": "$webhook_result_34568",
+      "dialog_node": "response_5_1579632755443",
+      "previous_sibling": "response_1_1579632754700"
+    },
+    {
+      "type": "standard",
+      "title": "Order Number (webhook)",
+      "parent": "node_4_1576712101203",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "order_number": 23009
+          },
+          "result_variable": "webhook_result_23009"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1577049850254",
+      "previous_sibling": "response_10_1579632755697"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1576712101203",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1579632755697",
+      "previous_sibling": "response_5_1579632755443"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your five digit order number?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576712101203",
+      "dialog_node": "response_1_1579632754700"
+    },
+    {
+      "type": "standard",
+      "title": "New Order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the email associated with your account?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#neworder",
+      "user_label": "Place a new order",
+      "dialog_node": "node_3_1576712090001",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Live Agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm happy to connect you to an Agent now"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 4000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "Connected to Agent (placeholder)",
+            "source": "https://cdn.pixabay.com/photo/2018/03/09/12/32/you-3211409_960_720.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1576715155817",
+      "previous_sibling": "node_7_1576622989357"
+    },
+    {
+      "type": "frame",
+      "title": "Modify Order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Your order will be delivered to $location, 3 business days following $date."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Anything else you need help with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Modify_Product_Order",
+      "dialog_node": "node_7_1576622989357",
+      "previous_sibling": "node_7_1576712493793"
+    },
+    {
+      "type": "standard",
+      "title": "Free Shipping ",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_34568"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#freeshipping",
+      "user_label": "Free shipping",
+      "dialog_node": "node_4_1576712101203",
+      "previous_sibling": "node_3_1576712090001"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1576715155817",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Returns ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have up to 60 days to return unwanted merchandise using the materials included in the box, or reach back out to me and I’ll be glad to help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Is there anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#returnpolicy",
+      "user_label": "Return Policy",
+      "dialog_node": "node_7_1576712493793",
+      "previous_sibling": "node_4_1576712101203"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to DTE Home Goods! How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 3,
+      "suggestion_text_policy": "title"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "DTE Home Goods",
+  "language": "en",
+  "description": "Watson Assistant Industry skill used to customize the DTE Bank demo solution"
+}
