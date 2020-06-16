@@ -1,0 +1,1919 @@
+  
+{
+  "intents": [
+    {
+      "intent": "eComercio_Modificar_orden_producto" ,
+      "examples": [
+        {
+          "text": "Necesito actualizar la dirección en mi pedido"
+        },
+        {
+          "text": "hace dos días "
+        },
+        {
+          "text": "¿Hay alguna forma de modificar un pedido anterior?"
+        },
+        {
+          "text": " Me gustaría cambiar algunas cosas con mi pedido más reciente "
+        },
+        {
+          "text": " ¿Puedo cambiar mi pedido de un nuevo dispositivo? "
+        },
+        {
+          "text": " ¿Puedes cambiar el orden que acabo de hacer? "
+        },
+        {
+          "text": " ¿Me pueden ayudar a modificar el pedido que acabo de hacer? "
+        },
+        {
+          "text": " Cambió de opinión en el último pedido "
+        },
+        {
+          "text": " Hola, me gustaría cambiar la fecha de entrega de mi pedido, por favor "
+        },
+        {
+          "text": " ¿Cómo puedo arriesgar mi pedido? "
+        },
+        {
+          "text": " ¿Cómo cambio el teléfono que pedí? "
+        },
+        {
+          "text": " Necesito modificar el pedido que hice ayer, por favor "
+        },
+        {
+          "text": " Necesito cambiar mi pedido ayuda por favor "
+        },
+        {
+          "text": " Necesito hacer un cambio en mi pedido actual "
+        },
+        {
+          "text": " Pedí un teléfono nuevo hoy, pero olvidé agregar un cargador adicional ¿Pueden agregarlo a mi pedido original? "
+        },
+        {
+          "text": " Quiero cambiar mi último pedido pero no quiero cancelarlo ¿Puedo hacer eso? "
+        },
+        {
+          "text": " Quiero editar un pedido "
+        },
+        {
+          "text": " Quiero modificar un pedido realizado "
+        },
+        {
+          "text": " Quiero actualizar mi pedido " 
+        },
+        {
+          "text": " Me gustaría agregar elementos adicionales a un pedido " 
+        },
+        {
+          "text": " Me gustaría modificar un pedido que hice " 
+        },
+        {
+          "text": " ¿Puedo cambiar el número del pedido de tres a cuatro? "
+        },
+        {
+          "text": " actualizar dirección en orden "
+        }
+      ],
+      "description": " Cambiar o modificar un pedido realizado " 
+    },
+    {
+      "intent": "eComercio_Cancelar_orden_producto" ,
+      "examples": [
+        {
+          "text": " Quiero cancelar el pedido "
+        },
+        {
+          "text": " ¿Pueden ayudarme a cancelar el pedido que acabo de hacer hace unos minutos? "
+        },
+        {
+          "text": " Cancelar pedido existente "
+        },
+        {
+          "text": " Cancelar pedido realizado antes "
+        },
+        {
+          "text": " Cancelar pedido enviado hoy "
+        },
+        {
+          "text": " ¿Cómo puedo cancelar mi pedido de su servicio de datos ampliado? "
+        },
+        {
+          "text": " ¿Cómo puedo cancelar mi pedido anterior? "
+        },
+        {
+          "text": " Hice un pedido ayer, ¿puedo cancelarlo? "
+        },
+        {
+          "text": " Cancele el pedido que se realizó recientemente " 
+        },
+        {
+          "text": " Por favor, cancele el pedido que hice esta mañana "
+        },
+        {
+          "text": " Compré un teclado y la identificación me gustaría cancelarlo "
+        },
+        {
+          "text": " Deseo cancelar mi pedido reciente "
+        },
+        {
+          "text": " Deseo cancelar mi último pedido " 
+        },
+        {
+          "text": " ¿Me pueden ayudar a cancelar mi último pedido? "
+        },
+        {
+          "text": " Acabo de hacer un pedido, pero tengo que cancelarlo " 
+        },
+        {
+          "text": " Necesito cancelar un pedido que hice " 
+        },
+        {
+          "text": " Necesito cancelar el pedido más reciente ¿Cómo hago esto? "
+        },
+        {
+          "text": " Necesito hablar con alguien sobre un pedido que hice hace poco, tengo que cancelarlo por favor "
+        },
+        {
+          "text": " Recientemente realicé un pedido de un nuevo teléfono en línea He cambiado de opinión ¿Pueden cancelar mi pedido? "
+        },
+        {
+          "text": " Quiero cancelar el nuevo pedido de cambio de dispositivo que hice "
+        }
+      ],
+      "description": " Cancelar un pedido " 
+    },
+    {
+      "intent": "Chistesgenerales" ,
+      "examples": [
+        {
+          "text": " ¿Te gusta el humor? "
+        },
+        {
+          "text": " ¿Puedes contar una broma? "
+        },
+        {
+          "text": " ¿Puedes contarme una broma? "
+        },
+        {
+          "text": " ¿Tienes una broma? "
+        },
+        {
+          "text": " ¿Te gusta la diversión? "
+        },
+        {
+          "text": " Me estoy aburriendo "
+        },
+        {
+          "text": " ¿Tienes humor? "
+        },
+        {
+          "text": " ¿Cuál es tu broma favorita? "
+        },
+        {
+          "text": " ¿Qué haces para divertirte? "
+        },
+        {
+          "text": " Dime algo gracioso "
+        },
+        {
+          "text": " Cuéntame una broma "
+        },
+        {
+          "text": " Sorpréndeme con algo hilarante "
+        },
+        {
+          "text": " Una broma más "
+        },
+        {
+          "text": " estoy aburrido "
+        },
+        {
+          "text": " Quiero una broma "
+        },
+        {
+          "text": " Otra broma "
+        },
+        {
+          "text": " ¿Hay bromas? "
+        }
+      ],
+      "description": " Solicita una broma " 
+    },
+    {
+      "intent": "Numero_de_orden" ,
+      "examples": [
+        {
+          "text": " 87496 "
+        },
+        {
+          "text": " 23890 "
+        },
+        {
+          "text": " 12345 "
+        },
+        {
+          "text": " 34567 "
+        },
+        {
+          "text": " 23009 "
+        },
+        {
+          "text": " 23456 "
+        }
+      ],
+      "description": " "
+    },
+    {
+      "intent": "General_contactar_con_agente" ,
+      "examples": [
+        {
+          "text": " Quiero hablar con una persona "
+        },
+        {
+          "text": " Un agente real, por favor " 
+        },
+        {
+          "text": " Llamar al agente "
+        },
+        {
+          "text": " ¿Puedo conectarme a un agente? "
+        },
+        {
+          "text": " ¿Puedo hablar con un humano por favor? "
+        },
+        {
+          "text": " ¿Puedo hablar con una persona viva? "
+        },
+        {
+          "text": " ¿Puedo hablar con un asesor? "
+        },
+        {
+          "text": " ¿Puedo hablar con alguien? "
+        },
+        {
+          "text": " ¿Puedo hablar con alguien? "
+        },
+        {
+          "text": " ¿Me pueden ayudar a conectarme con un agente? "
+        },
+        {
+          "text": " ¿Puedes conectarme con una persona real? "
+        },
+        {
+          "text": " Conécteme a un operador en vivo, por favor " 
+        },
+        {
+          "text": " Persona de contacto "
+        },
+        {
+          "text": " ¿Podrías transferirme a tu maestro? "
+        },
+        {
+          "text": " Representante de servicio al cliente por favor " 
+        },
+        {
+          "text": " ¿No quieres un robot? "
+        },
+        {
+          "text": " Hola, ¿puedes transferirme? "
+        },
+        {
+          "text": " ¿Cómo puedo omitir el menú grabado e ir directamente a una persona en vivo? "
+        },
+        {
+          "text": " No quiero hablar con un bot " 
+        },
+        {
+          "text": " No quiero hablar contigo "
+        },
+        {
+          "text": " Necesito hablar con un representante ¿Cómo lo haría? "
+        },
+        {
+          "text": " Quiero un gerente "
+        },
+        {
+          "text": " Quiero agente "
+        },
+        {
+          "text": " Quiero que un agente me ayude "
+        },
+        {
+          "text": " Me gustaría hablar con un humano "
+        },
+        {
+          "text": " Me gustaría hablar con alguien "
+        },
+        {
+          "text": " ¿Hay alguien con quien pueda hablar de verdad? "
+        },
+        {
+          "text": " Necesito ayuda de humanos "
+        },
+        {
+          "text": " Operador por favor "
+        },
+        {
+          "text": " Por favor, ayúdame a llegar a un agente "
+        },
+        {
+          "text": " Por favor, conécteme a un agente en vivo "
+        },
+        {
+          "text": " Por favor, déjame hablar con un ser humano " 
+        },
+        {
+          "text": " Pls connect "
+        },
+        {
+          "text": " Ponme en contacto con alguien "
+        },
+        {
+          "text": " Enviarme a un agente "
+        },
+        {
+          "text": " ¿Dónde está el agente más cercano? "
+        },
+        {
+          "text": " Sí, llévame a una persona real "
+        },
+        {
+          "text": "en realidad, ¿puedo hablar con un agente? "
+        },
+        {
+          "text": " Ayuda del agente "
+        }
+      ],
+      "description": " Solicitar un agente humano " 
+    },
+    {
+      "intent": "envio_gratuito" ,
+      "examples": [
+        {
+          "text": " ¿Mi pedido califica para envío gratis? "
+        },
+        {
+          "text": " ¿Cómo puedo obtener envío gratis? "
+        },
+        {
+          "text": " Tengo un código de promoción para envío gratuito "
+        },
+        {
+          "text": " ¿Cómo obtengo el envío gratis? "
+        },
+        {
+          "text": " Debo obtener envío gratis "
+        },
+        {
+          "text": " Olvidé agregar el código de promoción para envío gratis "
+        },
+        {
+          "text": " ¿Cómo califico para el envío gratis? "
+        },
+        {
+          "text": " ¿Qué es un código de promoción para envío gratuito? "
+        },
+        {
+          "text": " Olvidé aplicar un código de promoción para envío gratis "
+        },
+        {
+          "text": " Tengo un código de promoción de envío "
+        },
+        {
+          "text": " Necesito agregar mi código de promoción de envío gratuito "
+        },
+        {
+          "text": " Acabo de hacer un pedido de ropa de cama y olvidé agregar el código de promoción para envío gratis ¿Puede ajustar eso por mí? "
+        },
+        {
+          "text": " ¿Puedo obtener envío gratis? "
+        },
+        {
+          "text": " Quiero envío gratis "
+        }
+      ],
+      "description": " "
+    },
+    {
+      "intent": " eCommerce_consulta_saldo " ,
+      "examples": [
+        {
+          "text": " Me gustaría saber cuánto es mi factura, por favor, gracias " 
+        },
+        {
+          "text": " Quiero preguntar sobre el saldo de mi cuenta "
+        },
+        {
+          "text": " ¿Cuánto es mi próximo pago? "
+        },
+        {
+          "text": " Hola Quiero saber cuánto tengo que pagar este mes "
+        },
+        {
+          "text": " Dame la cantidad adeudada "
+        },
+        {
+          "text": " El monto actual de la factura "
+        },
+        {
+          "text": " ¿Puedes decirme mi saldo actual, por favor? "
+        },
+        {
+          "text": " Sí, quiero consultar mi saldo "
+        },
+        {
+          "text": " ¿Cuál es mi saldo? "
+        },
+        {
+          "text": " ¿Cuál era el saldo de mi cuenta al 1 de junio de 2016? "
+        },
+        {
+          "text": " ¿Cuál es el saldo restante? "
+        },
+        {
+          "text": " ¿Cuál es mi saldo total? "
+        },
+        {
+          "text": " ¿Cuál es mi pendiente actual? "
+        },
+        {
+          "text": " ¿Me pueden ayudar a verificar mi saldo? "
+        },
+        {
+          "text": " ¿Puede decirme cuánto es mi factura de este mes? Creo que va a ser caro "
+        },
+        {
+          "text": " ¿Puedo ver el saldo de mi cuenta? "
+        },
+        {
+          "text": " ¿Puedo verificar mi balance de datos? "
+        },
+        {
+          "text": " ¿Puedes ayudarme a buscar mi saldo? "
+        },
+        {
+          "text": " Mostrar el balance "
+        },
+        {
+          "text": " Me gustaría saber cuánto debo " 
+        }
+      ],
+      "description": " Pregunte por el saldo de una cuenta " 
+    },
+    {
+      "intent": "General_feedback_negativo" ,
+      "examples": [
+        {
+          "text": " Estúpido "
+        },
+        {
+          "text": " Estás teniendo delirios "
+        },
+        {
+          "text": " ¿Por qué eres estúpido? "
+        },
+        {
+          "text": " ¿Por qué eres tan molesto? "
+        },
+        {
+          "text": " No pareces inteligente "
+        },
+        {
+          "text": " Eres demasiado estúpido "
+        },
+        {
+          "text": " Eres realmente irritante "
+        },
+        {
+          "text": " Eres realmente frustrante "
+        },
+        {
+          "text": "Los robots son estúpidos "
+        },
+        {
+          "text": "Los robots son aburridos "
+        },
+        {
+          "text": " Deja de molestarme "
+        },
+        {
+          "text": " Es molesto "
+        },
+        {
+          "text": " Te odio "
+        },
+        {
+          "text": " ¡Odio esto! "
+        },
+        {
+          "text": " No me gustas "
+        },
+        {
+          "text": " Te odio "
+        },
+        {
+          "text": " Todos te odian "
+        },
+        {
+          "text": " ¿No te gustas? "
+        },
+        {
+          "text": " Estás de los nervios "
+        },
+        {
+          "text": " Eres muy frustrante "
+        }
+      ],
+      "description": " Expresar comentarios desfavorables " 
+    },
+    {
+      "intent": "nueva_orden" ,
+      "examples": [
+        {
+          "text": " Necesito ayuda para hacer un pedido "
+        },
+        {
+          "text": " ayúdame a comprar cosas "
+        },
+        {
+          "text": " nuevo orden "
+        },
+        {
+          "text": " Quiero hacer un nuevo pedido "
+        },
+        {
+          "text": " Realizar un nuevo pedido "
+        },
+        {
+          "text": " realizar pedido "
+        },
+        {
+          "text": " ayúdame con una nueva compra "
+        },
+        {
+          "text": " comprar más cosas "
+        },
+        {
+          "text": " Necesito ayuda con mi pedido "
+        }
+      ],
+      "description": " "
+    },
+    {
+      "intent": "politica_devolucion" ,
+      "examples": [
+        {
+          "text": " ¿Puedo devolver este pedido? "
+        },
+        {
+          "text": " ¿Qué pasa si necesito regresar "?
+        },
+        {
+          "text": " ¿Cómo regreso? "
+        },
+        {
+          "text": " hacer una devolución "
+        },
+        {
+          "text": " devolver artículos por favor "
+        },
+        {
+          "text": " Necesito ayuda con una devolución "
+        },
+        {
+          "text": " ¿cuál es la política de devolución de las falsificaciones en caso de que cambie de opinión? "
+        },
+        {
+          "text": " ¿Cuál es su política de devolución? "
+        }
+      ],
+      "description": " "
+    },
+    {
+      "intent": "eComercio_estado_orden_del_producto" ,
+      "examples": [
+        {
+          "text": " Me gustaría verificar el estado de un pedido que hice recientemente " 
+        },
+        {
+          "text": " Me preguntaba si podría verificar el estado de un pedido que hice " 
+        },
+        {
+          "text": " Quiero un informe de estado sobre un pedido que hice la semana pasada " 
+        },
+        {
+          "text": " Compré un artículo el otro día y todavía no he recibido una actualización al respecto, ¿ya lo ha enviado? "
+        },
+        {
+          "text": " ¿Cómo puedo rastrear mi envío? "
+        },
+        {
+          "text": " ¿Ya se envió el pedido? "
+        },
+        {
+          "text": " ¿Ya se envió mi nuevo teléfono? "
+        },
+        {
+          "text": " Se espera enviar "
+        },
+        {
+          "text": " ¿Puedes rastrear el paradero de este sim que pedí? "
+        },
+        {
+          "text": " ¿Puedo verificar mi pedido? "
+        },
+        {
+          "text": " ¿Qué tan pronto podemos esperar el nuevo envío del iphone 7 que se ordenó la semana pasada? "
+        },
+        {
+          "text": " Sí, quiero seguir mi pedido "
+        },
+        {
+          "text": " Sí, se intentó entregarlo pero dice que el paquete fue rechazado aunque estábamos en el piso "
+        },
+        {
+          "text": " ¿Dónde está mi pedido? "
+        },
+        {
+          "text": "¿ Cuándo se supone que llegue mi nuevo teléfono? "
+        },
+        {
+          "text": " ¿En qué estado se encuentra con mi pedido actual? "
+        },
+        {
+          "text": " Número de seguimiento "
+        },
+        {
+          "text": " Estado del envío "
+        },
+        {
+          "text": " Por favor, ¿puedes contarme sobre el estado de una orden que hice? "
+        },
+        {
+          "text": " Progreso del pedido "
+        }
+      ],
+      "description": " Solicitar el estado de un pedido que se ha realizado " 
+    },
+    {
+      "intent": "General_despedida" ,
+      "examples": [
+        {
+          "text": " Hasta luego "
+        },
+        {
+          "text": " Ok adiós "
+        },
+        {
+          "text": " Eso es todo "
+        },
+        {
+          "text": " Eso es todo "
+        },
+        {
+          "text": " Hora de irse "
+        },
+        {
+          "text": " Fue agradable conversar contigo "
+        },
+        {
+          "text": " Me voy ahora "
+        },
+        {
+          "text": " Muchas gracias, ¡chao! "
+        },
+        {
+          "text": " Estoy listo "
+        },
+        {
+          "text": " Estoy bien, gracias "
+        },
+        {
+          "text": " Ya terminé "
+        },
+        {
+          "text": " Quiero salir "
+        },
+        {
+          "text": " Me tengo que ir "
+        },
+        {
+          "text": " Me gustaría dejar de hacer esto "
+        },
+        {
+          "text": " Finalizar prueba "
+        },
+        {
+          "text": " Cya más tarde "
+        },
+        {
+          "text": " Te veo luego "
+        },
+        {
+          "text": " Terminado ahora, adiós "
+        },
+        {
+          "text": " Piérdete "
+        },
+        {
+          "text": " Vete "
+        },
+        {
+          "text": " Salir "
+        },
+        {
+          "text": " Yendo ahora "
+        },
+        {
+          "text": " Adiós " 
+        },
+        {
+          "text": " Adiós "
+        },
+        {
+          "text": " Que tengas un buen día? "
+        },
+        {
+          "text": " Hola bot, vete "
+        },
+        {
+          "text": " Me voy "
+        },
+        {
+          "text": " Estoy fuera de aquí "
+        },
+        {
+          "text": " Adiós "
+        },
+        {
+          "text": " Adiós ahora "
+        },
+        {
+          "text": " Nos vemos "
+        },
+        {
+          "text": " Cállate "
+        },
+        {
+          "text": " Deja de hacer esto "
+        },
+        {
+          "text": " Deja de hablarme "
+        },
+        {
+          "text": " Gracias por su tiempo "
+        },
+        {
+          "text": "¡ Gracias, adiós! "
+        },
+        {
+          "text": " Finalizando esta sesión "
+        }
+      ],
+      "description": " Finaliza la conversación " 
+    },
+    {
+      "intent": "General_saludo" ,
+      "examples": [
+        {
+          "text": " Buenos días "
+        },
+        {
+          "text": " Me alegro de verte "
+        },
+        {
+          "text": " Saludos "
+        },
+        {
+          "text": " ¿Has estado bien? "
+        },
+        {
+          "text": " Hola agente "
+        },
+        {
+          "text": " Hola, estoy buscando ayuda aquí "
+        },
+        {
+          "text": " Hola "
+        },
+        {
+          "text": " Hola, ¿cómo estás? "
+        },
+        {
+          "text": " Hola a todos "
+        },
+        {
+          "text": " Hola "
+        },
+        {
+          "text": " Hola gemelo "
+        },
+        {
+          "text": " Hola tú "
+        },
+        {
+          "text": " Hola asesor "
+        },
+        {
+          "text": " Hola "
+        },
+        {
+          "text": " ¿Cómo van las cosas? "
+        },
+        {
+          "text": " ¿Cómo estás hoy? "
+        },
+        {
+          "text": " ¿Cómo has estado? "
+        },
+        {
+          "text": " ¿Cómo te va? "
+        },
+        {
+          "text": " ¿Cómo estás? "
+        },
+        {
+          "text": " Buscando buena noche "
+        },
+        {
+          "text": " Ok, llévame de vuelta "
+        },
+        {
+          "text": " ¿Qué hay de nuevo? "
+        },
+        {
+          "text": " ¿Qué pasa? "
+        },
+        {
+          "text": " ¿Quién es este? "
+        },
+        {
+          "text": " Estás ahí "
+        },
+        {
+          "text": " Buen día "
+        },
+        {
+          "text": " Buenas noches "
+        }
+      ],
+      "description": " Saluda al bot " 
+    },
+    {
+      "intent": "General_feedback_positivo" ,
+      "examples": [
+        {
+          "text": " Eres genial "
+        },
+        {
+          "text": " Eres increíble "
+        },
+        {
+          "text": " Gracias "
+        },
+        {
+          "text": " Ok, gracias "
+        },
+        {
+          "text": " Ama tu trabajo "
+        },
+        {
+          "text": " ¡Estoy deseando volver a trabajar con ustedes! :) "
+        },
+        {
+          "text": "¡ Me gusta lo que hiciste allí! :) "
+        },
+        {
+          "text": " ¿Qué tan genial es esto? "
+        },
+        {
+          "text": " No puedo creer que seas tan bueno "
+        },
+        {
+          "text": " ¡Brillante! "
+        },
+        {
+          "text": " ¡Los amo! Realmente quiero pedir otro juego "
+        },
+        {
+          "text": " sí "
+        },
+        {
+          "text": " Esto es bueno "
+        },
+        {
+          "text": " Esto es genial "
+        },
+        {
+          "text": " Esto es genial "
+        },
+        {
+          "text": " Has sido muy útil :) "
+        },
+        {
+          "text": " Eres un genio! "
+        },
+        {
+          "text": " Tú el hombre "
+        },
+        {
+          "text": "¡ Me diste exactamente lo que necesito! "
+        },
+        {
+          "text": " Eres maravilloso "
+        },
+        {
+          "text": " Eres el mejor "
+        }
+      ],
+      "description": " Expresar un sentimiento positivo o gratitud " 
+    }
+  ],
+  "entities": [
+    {
+      "entity":  " almohada " ,
+      "values": [
+        {
+          "type": "synonyms",
+          "value": " euro " ,
+           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          " value " : "standard" ,
+           "synonyms": []
+        }
+      ],
+      "fuzzy_match" : true
+    },
+    {
+      "entity":  " sí " ,
+      "values": [
+        {
+          "type": "synonyms",
+          " value " : " sí " ,
+           "synonyms": [
+            " y " ,
+            " Yup " ,
+            " ya " ,
+            " yas "
+          ]
+        }
+      ],
+      "fuzzy_match" : true
+    },
+    {
+      "entity":  " sys-currency " ,
+      "values": [],
+      "fuzzy_match" : true
+    },
+    {
+      "entity":  " sys-date " ,
+      "values": [],
+      "fuzzy_match" : true
+    },
+    {
+      "entity":  " tamaño " ,
+      "values": [
+        {
+          "type": "synonyms",
+          " value " : "queen" ,
+           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          " value " : "king" ,
+           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          " value " : " completo " ,
+           "synonyms": []
+        }
+      ],
+      "fuzzy_match" : true
+    },
+    {
+      "entity":  " ropa de cama " ,
+      "values": [
+        {
+          "type": "synonyms",
+          " value " : " hojas " ,
+           "synonyms": [
+            " juego de sábanas " ,
+            " hojas de perlas "
+          ]
+        }
+      ],
+      "fuzzy_match" : true
+    },
+    {
+      " entity " : " sys-location " ,
+      "values": [],
+      "fuzzy_match" : true
+    },
+    {
+      "entity":  " no " ,
+      "values": [
+        {
+          "type": "synonyms",
+          "value": " nop " ,
+           "synonyms": [
+            " nah " ,
+            " na " ,
+            " duro no " ,
+            " negativo "
+          ]
+        }
+      ],
+      "fuzzy_match" : true
+    }
+  ],
+  "metadata": {
+    " api_version " : {
+      " major_version " : " v2 " ,
+      " minor_version " : " 2018-11-08 "
+    }
+  },
+  "webhooks" : [
+    {
+      " url " : " https://042bc71cus-southapigwappdomaincloud/wa-lab-webhook/webhook " ,
+      "name": " main_webhook " ,
+       "headers": []
+    }
+  ],
+  " dialog_nodes " : [
+    {
+      "type" : "standard" ,
+      " title " : " shams " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Le gustaría Euro Shams o Standard Shams? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            " title " : " shams " ,
+            "source": " https://livestaticflickrcom/8795/17974924838_c42939f35d_b.jpg " ,
+            " response_type " : "image"
+          }
+        ]
+      },
+      " parent " : " node_6_1576714618350 " ,
+      "conditions": "true",
+      " dialog_node " : " node_6_1576714758677 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Pedido realizado " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Fantástico, su pedido se ha realizado Recibirá un correo electrónico de confirmación en su bandeja de entrada momentáneamente y podrá ver el pedido en su historial de pedidos ahora Se le enviará información de seguimiento dentro de las 24 horas " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            "time":  3000 ,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": " ¿Hay algo más en lo que pueda ayudarlo hoy? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_4_1576715030466 " ,
+      "conditions": " @yes || #General_feedback_positivo " ,
+      " dialog_node " : " node_6_1576715065370 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Sí " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Con qué más necesitas ayuda? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576713423695 " ,
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "user_input",
+        " dialog_node " : " Bienvenido "
+      },
+      "conditions": " @yes || #General_feedback_negativo " ,
+      " dialog_node " : " node_1_1576714130037 " ,
+      " previous_sibling " : " node_8_1576714126316 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " No " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡ Que tengas un buen día! "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576713423695 " ,
+      "conditions": " @no || #General_feedback_positivo || #General_despedida " ,
+      " dialog_node " : " node_8_1576714126316 "
+    },
+    {
+      "type" : " event_handler " ,
+      "output": {
+        "text": {
+          "values": [
+            "¿ Cuándo hiciste el pedido? "
+          ],
+          " selection_policy " : "sequential"
+        }
+      },
+      " parent " : " slot_9_1576879371093 " ,
+      " event_name " : " foco " ,
+      " dialog_node " : " handler_2_1576879371099 " ,
+      " previous_sibling " : " handler_8_1576879371099 "
+    },
+    {
+      "type" : " event_handler " ,
+      " parent " : " slot_9_1576879371093 " ,
+      " context " : {
+        " date " : " @ sys-date "
+      },
+      "conditions": " @ sys-date " ,
+      " event_name " : " input " ,
+      " dialog_node " : " handler_8_1576879371099 "
+    },
+    {
+      "type" : "standard" ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Dónde quieres que se envíen? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576714515760 " ,
+      "conditions": " @no " ,
+      " dialog_node " : " node_3_1576714621241 " ,
+      " previous_sibling " : " node_6_1576714618350 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Nueva orden 3 " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¡Genial! Se enviarán a su dirección en el archivo " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            "time":  2000 ,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": " ¿Hay algo más que quisieras hoy? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576714515760 " ,
+      "conditions": " @yes || #General_feedback_positivo || @ sys-location " ,
+      " dialog_node " : " node_6_1576714618350 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Sí " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿En qué más puedo ayudarte? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576622989357 " ,
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "user_input",
+        " dialog_node " : " Bienvenido "
+      },
+      "conditions": " @yes || #General_feedback_negativo " ,
+      " dialog_node " : " node_5_1578430058269 " ,
+      " previous_sibling " : " nodo_1_1578430050086 "
+    },
+    {
+      "type": "slot",
+      " parent " : " node_7_1576622989357 " ,
+      " variable " : " $ ubicación " ,
+      " dialog_node " : " slot_3_1576879423238 " ,
+      " previous_sibling " : " slot_9_1576879371093 "
+    },
+    {
+      "type": "slot",
+      " parent " : " node_7_1576622989357 " ,
+      " variable " : " $ fecha " ,
+      " dialog_node " : " slot_9_1576879371093 " ,
+      " previous_sibling " : " node_5_1578430058269 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " No " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡ Que tengas un buen día! "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576622989357 " ,
+      "conditions": " @no || #General_despedida || #General_feedback_positivo " ,
+      " dialog_node " : " node_1_1578430050086 "
+    },
+    {
+      "type" : "standard" ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Qué más necesitas? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576712493793 " ,
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "user_input",
+        " dialog_node " : " Bienvenido "
+      },
+      "conditions": " @yes || #General_feedback_positivo " ,
+      " dialog_node " : " node_3_1576879051072 " ,
+      " previous_sibling " : " node_9_1576714954226 "
+    },
+    {
+      "type" : "standard" ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Genial Veo que tenías un código de promoción para envío gratis cuando realizaste tu último pedido Como cliente valioso, hoy voy a renunciar a los costos de envío " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_7_1576712493793 " ,
+      "conditions": " @no || #General_despedida " ,
+      " dialog_node " : " node_9_1576714954226 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " N ° de pedido " ,
+      " parent " : " node_3_1576712090001 " ,
+      " acciones " : [
+        {
+          "name": " main_webhook " ,
+          "type" : " webhook " ,
+          "parameters": {
+            "order_number":  34567
+          },
+          " result_variable " : " webhook_result_34567 "
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      " dialog_node " : " node_4_1578418391205 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Sí " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Con qué más necesitas ayuda hoy? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_6_1576715065370 " ,
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@yes || #General_feedback_negativo",
+      "dialog_node": "node_10_1576715115965",
+      "previous_sibling": "node_2_1578432213507"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1576715065370",
+      "conditions": "@no || #General_feedback_positivo",
+      "dialog_node": "node_2_1578432213507"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            " ¿Cuál es la dirección a la que desea que se envíe este pedido? "
+          ],
+          " selection_policy " : "sequential"
+        }
+      },
+      " parent " : " slot_3_1576879423238 " ,
+      " event_name " : " foco " ,
+      " dialog_node " : " handler_2_1576879423244 " ,
+      " previous_sibling " : " handler_10_1576879423244 "
+    },
+    {
+      "type" : " event_handler " ,
+      " parent " : " slot_3_1576879423238 " ,
+      " context " : {
+        " ubicación " : " @ sys-location "
+      },
+      "conditions": " @ sys-location " ,
+      " event_name " : " input " ,
+      " dialog_node " : " handler_10_1576879423244 "
+    },
+    {
+      "type" : "standard" ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¡Genial! Se enviarán a $ ubicación "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_3_1576714621241 " ,
+      " context " : {
+        " ubicación " : " "
+      },
+      "conditions": " @ sys-location " ,
+      " dialog_node " : " node_7_1576714644645 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " eliminar el costo de envío " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Estoy reembolsando el costo de envío ¿Hay algo más en lo que pueda ayudarlo? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_8_1577049850254 " ,
+      " context " : {
+        " PromoCode " : " <? Inputtextextract ('[ \\ d] +', 0)?> "
+      },
+      "conditions": "true",
+      " dialog_node " : " node_7_1576713423695 " ,
+      "previous_sibling": "response_9_1578416672132"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Error: This webhook took too long to load"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1577049850254",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1578416672132",
+      "previous_sibling": "response_9_1578416670798"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi Bill! I see your order for the Queen Grey/White Striped Farmhouse Duvet Cover"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://livestaticflickrcom/8820/18136322626_c705ec384e_b.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "What is your promo code for free shipping?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577049850254",
+      " context " : {
+        " OrderNumber " : " <? Inputtextextract ('[ \\ d] +', 0)?> "
+      },
+      "conditions": " $ webhook_result_23009 " ,
+      " dialog_node " : " response_9_1578416670798 "
+    },
+    {
+      "type" : "standard" ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¡Genial! Tengo esas fundas ordenadas para ti " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_6_1576714758677 " ,
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "body",
+        " dialog_node " : " node_10_1576714881408 "
+      },
+      "conditions": " @pillow " ,
+      " dialog_node " : " node_9_1576714839979 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Realizar pedido " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿ Puedo hacer este pedido por usted? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_9_1576714954226 " ,
+      "conditions": "true",
+      " dialog_node " : " node_4_1576715030466 "
+    },
+    {
+      "type" : "standard" ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿ Algo más que necesites hoy? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_9_1576714839979 " ,
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "user_input",
+        " dialog_node " : " Bienvenido "
+      },
+      "conditions": "true",
+      " dialog_node " : " node_10_1576714881408 "
+    },
+    {
+      "type" : " response_condition " ,
+      "output": {
+        "text": {
+          "values": [
+            " Error: tardó demasiado en llamar al webhook " 
+          ],
+          " selection_policy " : "sequential"
+        }
+      },
+      " parent " : " node_4_1578418391205 " ,
+      "conditions": " anything_else " ,
+      " dialog_node " : " response_7_1578418440615 " ,
+      " previous_sibling " : " response_8_1578418440407 "
+    },
+    {
+      "type" : " response_condition " ,
+      "output": {
+        "text": {
+          "values": [
+            "¡ Bienvenido de nuevo $ webhook_result_34567name! Veo que nos ordenó un juego de sábanas el mes pasado, ¿cómo las está disfrutando? "
+          ],
+          " selection_policy " : "sequential"
+        }
+      },
+      " parent " : " node_4_1578418391205 " ,
+      "conditions": " $ webhook_result_34567name " ,
+      " dialog_node " : " response_8_1578418440407 " ,
+      " previous_sibling " : " node_7_1576714515760 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Nueva orden 2 " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Estaré encantado de ayudarlo con eso Estoy agregando un juego de sábanas orgánicas Pearl, King / Cal King, Blue Mist Artículo #: 5403659 a su carrito " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            " title " : " Hojas azules " ,
+            "source": " https://livestaticflickrcom/8775/18136323326_6075b3bcfa_b.jpg " ,
+            " response_type " : "image"
+          },
+          {
+            "values": [
+              {
+                "text": " ¿Desea que se envíen a su domicilio en el archivo? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_4_1578418391205 " ,
+      "conditions": " @yes || #General_feedback_positivo " ,
+      " dialog_node " : " node_7_1576714515760 "
+    },
+    {
+      "type" : " response_condition " ,
+      " parent " : " node_4_1576712101203 " ,
+      "conditions": " $ webhook_result_34568 " ,
+      " dialog_node " : " response_5_1579632755443 " ,
+      " previous_sibling " : " response_1_1579632754700 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Número de pedido (webhook) " ,
+      " parent " : " node_4_1576712101203 " ,
+      " acciones " : [
+        {
+          "name": " main_webhook " ,
+          "type" : " webhook " ,
+          "parameters": {
+            "order_number":  23009
+          },
+          " result_variable " : " webhook_result_23009 "
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      " dialog_node " : " node_8_1577049850254 " ,
+      " previous_sibling " : " response_10_1579632755697 "
+    },
+    {
+      "type" : " response_condition " ,
+      " parent " : " node_4_1576712101203 " ,
+      "conditions": " anything_else " ,
+      " dialog_node " : " response_10_1579632755697 " ,
+      " previous_sibling " : " response_5_1579632755443 "
+    },
+    {
+      "type" : " response_condition " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Cuál es su número de pedido de cinco dígitos? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " parent " : " node_4_1576712101203 " ,
+      " dialog_node " : " response_1_1579632754700 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Nuevo orden " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¿Cuál es el correo electrónico asociado con su cuenta? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      "conditions": " #neworder " ,
+      " USER_LABEL " : " Colocar un nuevo orden " ,
+      " dialog_node " : " node_3_1576712090001 " ,
+      " previous_sibling " : " Bienvenido "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Agente en vivo " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Estoy feliz de conectarte con un agente ahora "
+              },
+              {
+                "text": " "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            "time":  4000 ,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            " title " : " Conectado al agente (marcador de posición) " ,
+            "source": " https://cdnpixabaycom/photo/2018/03/09/12/32/you-3211409_960_720.jpg " ,
+            " response_type " : "image"
+          }
+        ]
+      },
+      "conditions": " #General_Connect_to_Agent " ,
+      " digress_in " : " does_not_return " ,
+      " dialog_node " : " node_4_1576715155817 " ,
+      " previous_sibling " : " node_7_1576622989357 "
+    },
+    {
+      "type" : " frame " ,
+      " title " : " Modificar orden " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ¡Genial! Su pedido será entregado en $ ubicación, 3 días hábiles después de $ fecha " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿ Algo más con lo que necesitas ayuda? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      "conditions": " #eCommerce_Modify_Product_Order " ,
+      " dialog_node " : " node_7_1576622989357 " ,
+      " previous_sibling " : " node_7_1576712493793 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Envío gratis " ,
+      "metadata": {
+        " llamada " : {
+          "name": " main_webhook " ,
+          "type" : " webhook " ,
+          "parameters": {
+            " " : " "
+          },
+          " result_variable " : " webhook_result_34568 "
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": " #freeshipping " ,
+      " user_label " : " Envío gratuito " ,
+      " dialog_node " : " node_4_1576712101203 " ,
+      " previous_sibling " : " node_3_1576712090001 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Cualquier otra cosa " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " No entendí Puedes intentar reformular " 
+              },
+              {
+                "text": " ¿Puedes reformular tu declaración? No entiendo " 
+              },
+              {
+                "text": " No entendí tu significado " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      " next_step " : {
+        "behavior": " jump_to " ,
+        "selector": "user_input",
+        " dialog_node " : " Bienvenido "
+      },
+      "conditions": " anything_else " ,
+      " dialog_node " : " Cualquier otra cosa " ,
+      " previous_sibling " : " node_4_1576715155817 " ,
+      " disambiguation_opt_out " : true
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Devoluciones " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Tiene hasta 60 días para devolver la mercancía no deseada utilizando los materiales incluidos en la caja, o comuníquese conmigo y con gusto lo ayudaré " 
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " ¿Hay algo más? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      "conditions": " #returnpolicy " ,
+      " user_label " : " Política de devoluciones " ,
+      " dialog_node " : " node_7_1576712493793 " ,
+      " previous_sibling " : " node_4_1576712101203 "
+    },
+    {
+      "type" : "standard" ,
+      " title " : " Bienvenido " ,
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡ Bienvenido a DTE Home Goods! ¿Cómo puedo ayudarlo? "
+              }
+            ],
+            " response_type " : "text" ,
+            " selection_policy " : "sequential"
+          }
+        ]
+      },
+      "conditions": " bienvenido " ,
+      " dialog_node " : " Bienvenido "
+    }
+  ],
+  " contraexamples " : [],
+  " system_settings " : {
+    " off_topic " : {
+      "enabled": true
+    },
+    " desambiguación " : {
+      " prompt " : " Quiso decir: " ,
+      "enabled": true ,
+      "randomize": true,
+      " max_suggestions " : 3 ,
+      " sugerencia_text_política " : " título "
+    },
+    " human_agent_assist " : {
+      " prompt " : " Quiso decir: "
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  " name " : " DTE Home Goods " ,
+  " idioma " : " en " ,
+  "description": " Habilidad de Watson Assistant Industry utilizada para personalizar la solución de demostración de DTE Bank "
+}
+
